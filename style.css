@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 @import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
@@ -84,3 +85,89 @@ figcaption {
 				}
 
 	a:hover {color: #7F5539;}
+=======
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+{
+	margin: 0;
+	adding: 0;
+}
+
+html {
+		width: 100%;
+		height: 100%;
+		}
+
+body {
+		min-height: 100%;
+		width: 100%;
+		overflow-x: hidden;
+		font-family:Noto+Serif, serif;
+		background-color: #EDE0D4;
+	}
+
+article {
+	width: 70vw;
+	margin-left: 10vw;
+}
+
+h1 {
+	font-family:Sekuya, system-ui;
+	margin-top: 2vh;
+	font-size: 7vh;
+	line-height: 7.2vh;
+  	/*background-color: #E6CCB2;*/
+		}
+			
+h2 {
+	font-family: Crimson+Text, sans-serif;
+	font-size: 5vh;
+	background-color: #B08968;
+	}
+
+section > p {
+	font-size: 3.5vh;
+	padding-left: 1em;
+	text-align: left;
+	}
+
+figure {
+	display:block;
+}
+
+figcaption {
+	font-family: Crimson+Text, sans-serif;
+	/*text-align: center;*/
+	font-size: 3vh;
+	line-height: 30px; 
+}
+
+img {
+	width:40vw;
+}
+
+section > figure > img {
+	width:25vw;
+}
+
+nav {
+	font-family:Noto+Serif, serif;
+	font-size: 3.2vh;
+	position: fixed;
+	left: 90vw;
+	background-color: #E6CCB2;
+	text-align: center;
+	line-height: 5vh;
+	}
+
+a, a:visited { 
+		color: black;
+		text-decoration: none;
+		}
+
+a:hover {
+	color: #7F5539;
+}
+
+>>>>>>> Stashed changes
