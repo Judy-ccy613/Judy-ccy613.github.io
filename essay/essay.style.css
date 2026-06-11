@@ -31,6 +31,7 @@ header {
 
 
 article {
+	position: fixed;
 	width: 60vw;
 	margin-left: 25vw;
 
@@ -49,13 +50,15 @@ a:hover {
 nav {
 	position: fixed;
 	top: 0;
-	left: 8vw;
+	left: 7vw;
 	background-color: #111111;
 	opacity: 0.7;
 }
 
 nav > p {
+	color: white;
 	padding: 5px;
+	text-align: center;
 }
 
 nav > p :hover {

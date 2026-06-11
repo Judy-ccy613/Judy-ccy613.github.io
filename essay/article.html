@@ -4,6 +4,8 @@
 		<title>Essay Analysis</title>
 		<link rel="stylesheet" href="essay.style.css">
 		<meta charset="UTF-8">
+		<script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+        <script src="script.js"></script>
 	</head>
 	<style>
 		body {
@@ -30,10 +32,19 @@
 			margin: 0.5 em;
 		}
 
+		nav > p:first-of-type {
+			cursor: pointer;
+		}
+
+		nav > p:not(:first-of-type) {
+			display: none;
+		}
+
 	</style>
 	<body>
 		<article>
 		<nav>
+			<p>≡</p>
             <p><a href = "index.html">Home</a></p>
             <p><a href = "essay.structure.html">Structure Analysis</a></p>
         </nav>
