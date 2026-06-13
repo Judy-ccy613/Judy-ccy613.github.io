@@ -2,16 +2,13 @@
 <html lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-			<title>Welcome to Judy's Website</title>
+		<title>Welcome to Judy's Website</title>
 	<style>
 		body {
-			background-image: url('img/background.jpg');
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center;
-			/*height: 100vh;*/
-			/*margin: 0;*/
-			overflow-y: clip;
+			overflow: clip;
 		}
 
 		article {
@@ -41,16 +38,44 @@
 				color: #7F5539;
 			}
 
+		img {
+			position: absolute;
+			top: -60vh;
+			left: -5vw;
+			height: 185vh;
+			z-index:-999;
+		}
+
 		@media only screen and (max-width: 1024px) {
 			body {
-			background-size: cover;
-			background-repeat: no-repeat;
-			background-position: center;
+				margin: 5vh 14vw;
+				width: 100%;
+
+			}
+
+			section {
+				text-align: center;
+				line-height: 250px;
+				width: 250px;
+  				height: 250px;;
+			}
+
+			h1 {
+				font-size: 4vh;
+			}
+
+			img {
+				top: -60vh;
+				left: -60vw;
+				height: 185vh;
 			}
 		}
 	</style>
 	</head>
 	<body>
+		<figure>
+			<img src="img/background.jpg">
+		</figure>
 		<article>
 			<h1>Hello!! Welcome to Judy's Website!</h1>
 			<section>
