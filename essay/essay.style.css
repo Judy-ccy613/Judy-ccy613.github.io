@@ -28,13 +28,10 @@ header {
 	font-size: 6vh;
 };
 
-
-
 article {
 	position: fixed;
 	width: 60vw;
 	margin-left: 25vw;
-
 }
 
 
@@ -90,6 +87,6 @@ h1, h2 {
 	margin: 2vh 0;
 }
 
-span {
-	background-color: #D5BDAF;
-}
+
+
+

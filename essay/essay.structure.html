@@ -7,6 +7,13 @@
     </head>
     <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
     <script src="script.js"></script>
+    <script>
+        $(window).ready(function() {
+            $("span1").on("click", function() {
+            $(this).siblings().slideDown(1000);
+            });
+        });
+    </script>
     <style>
         body {
             background-color: #F5EBE0;
@@ -37,7 +44,38 @@
         nav > p:not(:first-of-type) {
             display: none;
         }
- 
+        
+        section:not(:last-of-type) > p:last-of-type {
+            display: none;
+        }
+
+        span1 {
+            cursor: pointer;
+            color: #023E8A;
+        }
+
+            @media only screen and (max-width: 1024px) {
+            nav {
+                left: 0;
+            }
+
+            h1 {
+                font-size: 4vh;
+            }
+
+            section > p {
+                text-align: left;
+                font-size: 3vh;
+            }
+
+            section > span1 {
+                font-size: 3vh;
+            }
+
+            nav > p{
+                font-size: 2.5vh;
+            }
+        }
 
     </style>
     <body>
@@ -52,28 +90,42 @@
             </section>
             <section>
             <h1>Thesis Statement</h1>
-            <sub>- one sentence (or sometimes two) that clearly expresses the main idea or central argument of an essay</sub><br/>
             <p>
             In [Sec. 2]: Not long ago, South Korea often made global headlines — and raised the ire of animal rights groups — for its tradition of breeding dogs for meat. <span> But in recent years, people here have gravitated toward pets, especially dogs. They are looking for companionship at a time when more South Koreans are choosing to stay single, childless or both.</span> More than two-fifths of all households in the nation now consist of only one person.
             </p>
 
-            Explanation:
+            <span1><li><b>Explanation:</b></li></span1>
             <p>This thesis statement explains that more South Koreans are keeping pets, especially dogs, because they seek companionship as fewer people are getting married or having children. It introduces the article's main argument and sets up the discussion that follows.</p>
         </section>
         <section>
             <h1>Cohensive Writing</h1>
-            -frequently use a linking word
             <p>
-                
+            In [Sec. 2]: But in recent years, people here have gravitated toward pets, especially dogs. They are looking for companionship at a time when more South Koreans are choosing to stay single, childless or both. More than two-fifths of all households in the nation now consist of only one person. The pandemic <span>also</span> did much to bring pets into homes, as people cooped up indoors adopted dogs and cats from shelters and the streets.
+            </p>
+
+            <span1><li><b>Explanation:</b></li></span1>
+            <p>
+               The word "also" adds another reason for the growth of pet ownership. It connects the new idea to the previous discussion and strengthens the flow of information. 
             </p>
         </section>
         <section>
             <h1>Coherent Writing</h1>
-            <p></p>
+            <p>
+            The main idea in [Sec. 2] shows that dogs have become valuable companions in South Korea because they provide emotional support in an increasingly lonely society.
+            </p>
+            <p>
+            The first sentence in [Sec. 3]: The boom in pet services has changed the country’s urban landscape. Hospitals and shops catering to pets have become ubiquitous, while childbirth clinics have all but disappeared, as South Korea’s birthrate has become the lowest in the world. In parks and neighborhoods, strollers are more often than not carrying dogs.
+            </p>
+            <span1><li><b>Explanation: Cause and Effect</b></li></span1>
+            <p>
+            The opening sentence clearly develops the previous discussion by showing the social consequences of increased pet ownership. After explaining why people are becoming attached to dogs, the author logically moves on to describe how this trend has transformed businesses, public spaces, and daily life. This cause-and-effect relationship creates coherence between the two paragraphs.
+            </p> 
         </section>
         <section>
             <h1>Takeaway</h1>
-            <p></p>
+            <p>
+            This article shows how dogs have become an important source of companionship in South Korea as loneliness, single-person households, and low birth rates continue to rise. Many people now view their pets as family members rather than simply animals, creating strong emotional bonds. As a result, this shift has influenced social attitudes, expanded the pet industry, and encouraged greater attention to animal welfare and pet-related services.
+            </p>
         </section>
     </body>
 </html>
